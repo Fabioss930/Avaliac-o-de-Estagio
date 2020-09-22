@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="CadastrodeUsuario.css" rel="stylesheet" />
+    <script src="CadastrodeUsuario.js"></script>
+
+    <title>Cadastro de Usuário</title>
+</head>
+
+<body>
+    
+     <div class="corpo">
+        <h1>CADASTRO DE USUÁRIO</h1>
+
+        Nome<br>
+        <input type="text" id="nome" autofocus><br>
+        Data de Nascimento<br>
+        <input type="date" id="data"><br>
+        E-mail<br>
+        <input type="email" id="email" required ><br>
+        Senha<br>
+        <input type="password" id="senha"><br><br>
+
+        
+        <button onclick="lista.salvar()">Cadastrar</button>
+        
+        <a href="/Tela de Login/TeladeLogin.html"><button>Fazer Login</button></a>
+
+        <div id="dados">
+            <h3>LISTA DE USUÁRIOS:</h3>
+            <label id="qtd"></label>
+            
+       </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

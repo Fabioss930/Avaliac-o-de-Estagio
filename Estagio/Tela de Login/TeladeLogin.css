@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-color: #eeee;
+}
+.Teladelogin{
+    width:280px;
+    height:200px;
+    background-color: darkgray;
+    margin:auto;
+    padding:20px;
+    margin-top:8px;
+    border-radius: 10px;
+}
+.Teladelogin h1{
+    font-family: Arial;
+}
+.Teladelogin input{
+    border-radius: 5px;
+    width: 250px;
+}
+.Teladelogin button{
+    border-radius: 5px;
+}
